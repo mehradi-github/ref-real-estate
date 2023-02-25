@@ -7,6 +7,9 @@ The Real Estate portal is built React and Tailwind CSS.
 ## Installing Requirements
 ```bash
 npx create-react-app ref-real-state --template typescript
-npm i -D tailwindcss
+git branch -m main
+git pull origin main --allow-unrelated-histories
+npm i -D tailwindcss@latest 
+git push -u origin main
 
 ```
