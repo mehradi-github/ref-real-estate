@@ -39,10 +39,6 @@ file index.css
 @tailwind components;
 @tailwind utilities;
 ```
-```bash
-npm start
-```
-
 App.ts
 ```js
 export default function App() {
@@ -52,6 +48,11 @@ export default function App() {
     </h1>
   )
 }
+```
+
+```bash
+npm start
+# npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch
 ```
 
 
