@@ -8,8 +8,8 @@ const Navbar: FC = () => {
         <div className="flex justify-between">
           <div className="flex space-x-7">
             <div>
-              <a href="#" className="flex items-center py-4">
-                <HomeIcon className="h-8 w-8" />
+              <a className="flex items-center py-4 px-2" href="#">
+                <HomeIcon className="h-8 w-8 mr-2" />
                 <span className="font-semibold text-gray-500">Real Estate</span>
               </a>
             </div>
