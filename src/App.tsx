@@ -13,11 +13,31 @@ function App() {
               <span className="font-semibold text-gray-500">Real Estate</span>
             </a>
           </div>
-          <div>
-            <a href="#">Home</a>
-            <a href="#">Service</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+          <div className="hidden md:flex space-x-1">
+            <a
+              className="py-4 px-2 text-gray-500 font-semibold border-green-500 border-b-4"
+              href="#"
+            >
+              Home
+            </a>
+            <a
+              className="py-4 px-2  text-gray-500 font-semibold hover:text-green-500 transition duration-500  "
+              href="#"
+            >
+              Service
+            </a>
+            <a
+              className="py-4 px-2  text-gray-500 font-semibold hover:text-green-500 transition duration-500  "
+              href="#"
+            >
+              About
+            </a>
+            <a
+              className="py-4 px-2  text-gray-500 font-semibold hover:text-green-500 transition duration-500  "
+              href="#"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </div>
