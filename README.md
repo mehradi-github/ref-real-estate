@@ -56,3 +56,4 @@ npm start
 ```
 
 
+Deploy React to Github Pages: [gh-pages](https://github.com/mehradi-github/ref-landingpage-photography#deploy-react-to-github-pages)
