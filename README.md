@@ -15,7 +15,7 @@ git push -u origin main
 ## Get started with Tailwind CSS
 Install [Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app) with Create React App:
 ```bash
-npm i -D tailwindcss@latest 
+npm i -D tailwindcss@latest @headlessui/react @heroicons/react 
 npx tailwindcss init
 
 ```
