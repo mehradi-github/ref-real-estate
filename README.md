@@ -11,6 +11,10 @@ npx create-react-app ref-real-state --template typescript
 git branch -m main
 git pull origin main --allow-unrelated-histories
 git push -u origin main
+
+# fortawesome
+npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome
+
 ```
 ## Get started with Tailwind CSS
 Install [Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app) with Create React App:

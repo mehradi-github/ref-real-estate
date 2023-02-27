@@ -8,6 +8,7 @@ import {
   Title,
   Client,
   Contact,
+  Footer,
 } from "./features/sections";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Client />
       <Title title="Contact Us" />
       <Contact />
+      <Footer />
     </Fragment>
   );
 }
