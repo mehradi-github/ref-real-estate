@@ -10,11 +10,9 @@ const Discount: FC = () => {
     >
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-white mb-2">
-          loreExcepteur esse amet ea eu laboris.
+          Save upto 50% on broker commisions
         </h2>
-        <h3 className="text-2xl mb-8 text-gray-200">
-          Aliqua ipsum esse anim fugiat quis aliqua culpa.
-        </h3>
+        <h3 className="text-2xl mb-8 text-gray-200">Lowest brokerage fees</h3>
         <button className="bg-white rounded-2xl uppercase border-2 px-8 py-4 font-bold tracking-wider">
           Enquire
         </button>

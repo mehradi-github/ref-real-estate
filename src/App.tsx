@@ -1,9 +1,5 @@
 import React, { Fragment } from "react";
-import Banner from "./features/banner/Banner";
-import Cards from "./features/cards/Cards";
-import Discount from "./features/luxury/Discount";
-import Luxury from "./features/luxury/Luxury";
-import Navbar from "./features/navbar/Navbar";
+import { Banner, Cards, Discount, Luxury, Navbar } from "./features/sections";
 
 function App() {
   return (
