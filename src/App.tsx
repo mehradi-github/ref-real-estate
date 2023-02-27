@@ -6,6 +6,7 @@ import {
   Luxury,
   Navbar,
   Title,
+  Client,
 } from "./features/sections";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Cards imageIds={[381, 384, 386]} isLocation={true} />
       <Discount />
       <Title title="What clients about us?" />
+      <Client />
     </Fragment>
   );
 }
