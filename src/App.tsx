@@ -7,6 +7,7 @@ import {
   Navbar,
   Title,
   Client,
+  Contact,
 } from "./features/sections";
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Discount />
       <Title title="What clients about us?" />
       <Client />
+      <Title title="Contact Us" />
+      <Contact />
     </Fragment>
   );
 }
