@@ -48,16 +48,9 @@ const Cards: FC<Iprop> = ({ imageIds, isLocation }) => {
     </div>
   );
   return (
-    <Fragment>
-      <div className="mt-5 flex justify-center">
-        <h2 className="text-3xl text-gray-500 mb-2">
-          {isLocation ? "Locations" : "Recent Properties"}
-        </h2>
-      </div>
-      <div className="grid  sm:grid-cols-1   md:grid-cols-3 p-10 gap-5">
-        {imageIds.map((i) => card(i, isLocation))}
-      </div>
-    </Fragment>
+    <div className="grid  sm:grid-cols-1   md:grid-cols-3 p-10 gap-5">
+      {imageIds.map((i) => card(i, isLocation))}
+    </div>
   );
 };
 export default Cards;
