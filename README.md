@@ -3,6 +3,8 @@ The Real Estate portal is built React and Tailwind CSS.
 - [The Real Estate](#the-real-estate)
   - [Installing Requirements](#installing-requirements)
   - [Get started with Tailwind CSS](#get-started-with-tailwind-css)
+    - [Animation](#animation)
+    - [Arbitrary values](#arbitrary-values)
 
 
 ## Installing Requirements
@@ -57,6 +59,42 @@ export default function App() {
 ```bash
 npm start
 # npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch
+```
+### Animation
+Utilities for animating elements with CSS animations.
+animate-none, animate-spin, animate-ping, animate-pulse, animate-bounce
+```html
+<svg class="animate-bounce w-6 h-6 ...">
+  <!-- ... -->
+</svg>
+```
+You can customize these values by editing theme.animation or theme.extend.animation in your tailwind.config.js file.
+To add new animation @keyframes, use the keyframes section of your theme configuration:
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      }
+
+       animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      }
+    }
+  }
+}
+```
+### Arbitrary values
+If you need to use a one-off animation value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+```html
+<div class="animate-[wiggle_1s_ease-in-out_infinite]">
+  <!-- ... -->
+</div>
 ```
 
 
