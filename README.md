@@ -61,7 +61,7 @@ npm start
 # npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch
 ```
 ### Animation
-Utilities for animating elements with CSS animations.
+Utilities for [animating](https://tailwindcss.com/docs/animation) elements with CSS animations.
 animate-none, animate-spin, animate-ping, animate-pulse, animate-bounce
 ```html
 <svg class="animate-bounce w-6 h-6 ...">
